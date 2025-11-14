@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalidad de Nadine — Datos Extra</title>
+  <link rel="stylesheet" href="extra.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="misterio.jpeg">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .character-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(40, 20, 20, 0.7);
+      border: 1px solid #ffb6b6;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 0 15px #ffb6b6;
+    }
+
+    .character-container img {
+      width: 160px;
+      border-radius: 10px;
+      border: 1px solid #ffb6b6;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      text-shadow: 0 0 10px #ffc4c4;
+    }
+
+    p, li {
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "⚝ ";
+      color: #ffb6b6;
+    }
+
+    .info-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #ffb6b6;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 25px auto;
+      box-shadow: 0 0 8px #ff8a8a;
+      max-width: 800px;
+    }
+
+    .back-button {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #ffb6b6;
+      border-radius: 8px;
+      padding: 8px 15px;
+      color: #ffffff;
+      font-size: 1rem;
+      cursor: pointer;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      transition: 0.3s;
+    }
+
+    .back-button:hover {
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 10px #ffb6b6;
+    }
+
+    .info-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .info-text {
+      flex: 1;
+      text-align: left;
+    }
+
+    .info-image {
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .info-image img {
+      width: 200px;
+      border-radius: 10px;
+      border: 1px solid #ffb6b6;
+      box-shadow: 0 0 10px #ffa8a8;
+    }
+  </style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+
+  <!-- IMAGEN CORRECTA -->
+  <img src="final (1).jpg" alt="Ivi">
+
+  <div class="info-card">
+    <h3>Gustos</h3>
+    <ul>
+      <li>Le encanta cantar canciones mágicas.</li>
+      <li>Explorar los rincones más remotos del bosque.</li>
+      <li>Compartir historias con las criaturas místicas.</li>
+      <li>Disfruta de volar entre los árboles.</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <h3>Disgustos</h3>
+    <ul>
+      <li>No soporta la maldad ni la crueldad hacia los seres indefensos. </li>
+      <li>Se entristece por la destrucción del medio ambiente.</li>
+      <li>La pérdida de la conexión entre los seres vivos.</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <h3>Animal espiritual</h3>
+    <ul>
+      <li>La mariposa, símbolo de transformación y renacimiento.</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <h3>Pasatiempos</h3>
+    <ul>
+      <li>Compartir historias.</li>
+      <li>Volar entre los árboles.</li>
+      <li>Cantar canciones mágicas.</li>
+      <li>Leyendas con los habitantes del bosque.</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <div class="info-content">
+      <div class="info-text">
+        <h3>Filosofía de vida</h3>
+        <ul>
+          <li>Cree en la importancia de vivir en armonía con todas las criaturas del mundo y en el poder de la magia para sanar y proteger.</li>
+          <li>Considera que cada ser tiene un propósito único y valioso en el universo.</li>
+        </ul>
+      </div>
+
+      <!-- OPCIONAL: Imagen lateral para decoración -->
+      <div class="info-image">
+        <img src="https://i.pinimg.com/736x/56/c9/58/56c9587e7e713820de464e5ecfc48b89.jpg" alt="Ivi Decorativo">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+</body>
+</html>

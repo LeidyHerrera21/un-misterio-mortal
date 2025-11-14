@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Johanna - Un Misterio Mortal</title>
+<link rel="stylesheet" href="styles.css">
+ <link rel="icon" type="image/png" href="misterio.jpeg">
+<style>
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 15px #ffb6b6;
+}
+
+.character-container img {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #ffb6b6;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 10px #ffc4c4;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+</style>
+</head>
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="img/johana.jpg" alt="Autor">
+  <h2>Johanna</h2>
+  <p><strong>Edad:</strong> 18 años</p>
+  <p><strong>Nacionalidad:</strong> Japones </p>
+  <p><strong>Estatura:</strong> 1.78 </p>
+  <p><strong>Cumpleaños:</strong> 7 de Diciembre </p>
+  <p><strong>Apariencia:</strong> Cabello castaño claro y los ojos color avellana.
+ Su aspecto es suave y acogedor, con una sonrisa amable que ilumina su rostro.
+ Tiene una presencia tranquila y reconfortante que inspira confianza y seguridad en quienes la rodean.</p>
+  <p><strong>Breve historia:</strong> Creció en una granja alejada del bullicio de la ciudad, rodeada de naturaleza y tranquilidad. Desde joven, demostró una sensibilidad especial hacia los demás, siempre dispuesta a ayudar y cuidar a los que la rodeaban. Su corazón bondadoso y su espíritu compasivo la convirtieron en una amiga leal y confiable, siempre dispuesta a brindar apoyo y consuelo a quienes lo necesitaban. Aunque su vida puede parecer tranquila a primera vista, su sabiduría innata y su valentía en los momentos difíciles la convierten en una fuerza poderosa a tener en cuenta.</p>
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "index.html";
+}
+</script>
+</body>
+</html>

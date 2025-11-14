@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nadine - Un Misterio Mortal</title>
+<link rel="stylesheet" href="styles.css">
+ <link rel="icon" type="image/png" href="misterio.jpeg">
+<style>
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 15px #ffb6b6;
+}
+
+.character-container img {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #ffb6b6;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 10px #ffc4c4;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+</style>
+</head>
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="img/nadine.jpg" alt="Autor">
+  <h2>Nadine</h2>
+  <p><strong>Edad:</strong> +1700000 años</p>
+  <p><strong>Nacionalidad:</strong> Alemana </p>
+  <p><strong>Estatura:</strong> 20 cm en forma hada y 1.60 en forma humana </p>
+  <p><strong>Cumpleaños:</strong> 13 de Marzo </p>
+  <p><strong>Apariencia:</strong> Tiene uno ojos de color celeste con azulado y su cabello es de un color  rubio</p>
+  <p><strong>Breve historia:</strong> Nadine nació en los bosques encantados en Alemania, donde fue criada por las criaturas mágicas que la rodeaban. Desde joven, demostró un talento innato para la magia y una conexión profunda con la naturaleza, convirtiéndose en una protectora de los seres que la habitan. Su bondad y compasión la convirtieron en un faro de luz en un mundo oscuro, siempre dispuesta a brindar ayuda y orientación a quienes la necesitaban. Aunque su historia es envuelta en misterio, su presencia reconfortante y su sabiduría ancestral la convierten en una figura venerada y respetada por todos los que tienen el privilegio de conocerla.</p>
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "index.html";
+}
+</script>
+</body>
+</html>

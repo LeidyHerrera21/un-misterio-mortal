@@ -1,0 +1,136 @@
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.data-box {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.info-button {
+  margin-top: 10px;
+  background-color: #e22b2b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.info-button:hover {
+  background-color: #a51717;
+  transform: scale(1.05);
+}
+
+.character-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 20px;
+  color: white;
+}
+
+.info-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+h3 {
+  color: #ff8f8f;
+  margin-top: 15px;
+}
+
+.character-img {
+  width: 180px;              /* 🔹 Tamaño más pequeño */
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+.character-img:hover {
+  transform: scale(1.05);   /* 🔹 Pequeño efecto al pasar el mouse */
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.data-box {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.info-button {
+  margin-top: 10px;
+  background-color: #e22b2b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.info-button:hover {
+  background-color: #a51717;
+  transform: scale(1.05);
+}
+
+.character-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 20px;
+  color: white;
+}
+
+.info-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+h3 {
+  color: #ff8f8f;
+  margin-top: 15px;
+}
+
+.character-img {
+  width: 180px;              /* 🔹 Tamaño más pequeño */
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+.character-img:hover {
+  transform: scale(1.05);   /* 🔹 Pequeño efecto al pasar el mouse */
+}
+

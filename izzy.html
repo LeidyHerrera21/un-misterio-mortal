@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Izzy - Un Misterio Mortal</title>
+<link rel="stylesheet" href="styles.css">
+ <link rel="icon" type="image/png" href="misterio.jpeg">
+<style>
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 15px #ffb6b6;
+}
+
+.character-container img {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #ffb6b6;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 10px #ffc4c4;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #b6b6ff;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+</style>
+</head>
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="img/izzy.jpg" alt="Autor">
+  <h2>Izzy</h2>
+  <p><strong>Edad:</strong> 20 años</p>
+  <p><strong>Nacionalidad:</strong> Británica</p>
+  <p><strong>Estatura:</strong> 1,54</p>
+  <p><strong>Cumpleaños:</strong> 19 de abril</p>
+  <p><strong>Apariencia:</strong> Cabello negro lacio, test fino, ojos marrones oscuros, nariz, labios fino gruesa y tono de piel media clara</p>
+  <p><strong>Breve historia:</strong> Izzy creció en una familia de académicos, rodeada de libros y conocimiento. Desde joven, demostró una inteligencia excepcional y una curiosidad insaciable por el mundo que la rodeaba. Siempre en busca de respuestas, se sumergió en el estudio de la magia y lo sobrenatural, buscando entender los misterios que la rodeaban. Sin embargo, su vida dio un giro oscuro cuando fue internada en un manicomio después de una serie de eventos traumáticos. Aunque lucha contra la oscuridad que amenaza con consumirla, su mente brillante y su determinación son sus mayores armas en la batalla contra sus propios demonios.</p>
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "index.html";
+}
+</script>
+</body>
+</html>

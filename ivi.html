@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ivi - Un Misterio Mortal</title>
+<link rel="stylesheet" href="styles.css">
+ <link rel="icon" type="image/png" href="misterio.jpeg">
+<style>
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 15px #ffb6b6;
+}
+
+.character-container img {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #ffb6b6;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 10px #ffc4c4;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+</style>
+</head>
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="img/ivi.jpg" alt="Autor">
+  <h2>Ivi</h2>
+  <p><strong>Edad:</strong> 16 años</p>
+  <p><strong>Nacionalidad:</strong> China </p>
+  <p><strong>Estatura:</strong> 1.65</p>
+  <p><strong>Cumpleaños:</strong> 15 de julio</p>
+  <p><strong>Apariencia:</strong> Cabello largo y oscuro, generalmente recogido en una trenza. Sus ojos son de un color verde profundo, brillantes y llenos de vida. Tiene una tez clara y un rostro delicado, con rasgos suaves y expresivos. Suele vestir de manera sencilla, prefiriendo prendas cómodas y prácticas para moverse por el bosque. Su presencia irradia una mezcla de serenidad y fortaleza, reflejando su profunda conexión con la naturaleza.</p>
+  <p><strong>Breve historia:</strong> Creció en un pequeño pueblo rodeado de naturaleza, donde desarrolló un profundo amor por el bosque y sus secretos. Desde joven, demostró valentía y determinación, enfrentándose a los desafíos que la vida le presentaba con coraje y nobleza. Su conexión con la naturaleza y su compasión hacia los demás la convirtieron en una líder entre sus amigos, siempre dispuesta a ayudar y proteger a los que amaba. Sin embargo, su vida dio un giro oscuro cuando fue poseída por el espíritu de una bruja antigua, desatando una lucha interna entre la luz y la oscuridad que la llevaría a enfrentarse a sus mayores miedos y desafíos.</p>
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "index.html";
+}
+</script>
+</body>
+</html>

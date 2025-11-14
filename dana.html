@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dana - Un Misterio Mortal</title>
+<link rel="stylesheet" href="styles.css">
+ <link rel="icon" type="image/png" href="misterio.jpeg">
+<style>
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 15px #ffb6b6;
+}
+
+.character-container img {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #ffb6b6;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 10px #ffc4c4;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+</style>
+</head>
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="img/dana.jpg" alt="Autor">
+  <h2>Dana</h2>
+  <p><strong>Edad:</strong> 19  años</p>
+  <p><strong>Nacionalidad:</strong> Puerto riqueña</p>
+  <p><strong>Estatura:</strong> 1.70</p>
+  <p><strong>Cumpleaños:</strong> 13 de Mayo</p>
+  <p><strong>Apariencia:</strong> Ella es alta mirada de ojos grandes  tiene ojos negros  usa botas largas y cortas en uno de sus manos tiene un lunar en forma de estrella, su cabello es medio ondulado y le llega hasta más abajo de los hombros es grueso  ella ama vestirse como corsario y como fugitiva pero también los vestidos elegantes para ir de fiesta .</p>
+  <p><strong>Breve historia:</strong> Creció en una familia de guerreros, donde aprendió desde joven el valor de la fuerza y la determinación. Siempre se destacó por su espíritu indomable y su coraje inquebrantable, enfrentándose a los desafíos con una determinación feroz pero decidió no utilizarlo. Sin embargo, su vida dio un giro oscuro cuando fue seducida por el poder de la magia oscura, llevándola por un camino de venganza y oscuridad. Aunque lucha constantemente contra sus demonios internos, su lealtad hacia sus amigos sigue siendo su mayor fuerza, aunque a veces la oscuridad amenaza con consumirla por completo.</p>
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "index.html";
+}
+</script>
+</body>
+</html>
